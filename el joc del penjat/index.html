@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>El joc del penjat</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body onload="Inicialitzar()">
+   <header>
+      <h1>EL JOC DEL PENJAT</h1>
+
+   </header>
+    <main>
+      <div class="izq">
+
+        <img class="img" id="imagen" src="imagen/A0.png">
+
+        <br>
+
+    <p class="paraula" id="paraula"></p>
+      <br>
+      <form id="formulario" action="">
+
+        <input class="letras" id="lletra" type="text"></input>
+        
+        <button class="button" type="button" onclick="Enviar()">Enviar</button>
+        <input type="button" value="Recargar" onclick="location.reload()">
+
+      </form>
+        <p id="paraula_secreta"></p>
+      </div>
+
+      <div class="right">
+
+        <h2>Llistat de Lletres</h2>
+
+        <br>
+        <p class="Llista" id="llista_lletres" type="text" ></p>
+
+      </div>
+    </main>
+   <script src="js/javascript.js"></script>
+  </body>

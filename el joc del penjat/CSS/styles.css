@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    
+    }
+    
+    body{
+    background-size: auto;
+    background-color: grey;
+    
+    }
+    
+    .izq {
+        position: absolute;
+        text-align: center;
+        width: 500px;
+        height: 400px;
+        border-radius: 35px;
+        margin-top: 40px;
+        margin-left: 60px;
+        background-color: rgb(97, 160, 34);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    margin-left: 200px;
+    
+    }
+    .right{
+        position: absolute; 
+        width: 350px;
+        height: 350px;
+        margin-top: 40px;
+        margin-left: 900px;
+        background-color: rgb(184, 238, 130);
+        border-radius: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+    }
+    .button{
+        
+        background-color: rgb(65, 226, 33);
+        border-color: rgb(95, 95, 9);
+        border-radius: 20px;
+        padding: 20px 20px;
+     
+    }
+    .letras {
+       
+       border-color: rgb(95, 95, 9);
+       text-align: center;
+       padding: 10px 10px;
+       width: 20px;
+    }
+    
+    .Llista{
+        display: block;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 20px 20px;
+        margin: 10px 100px;
+    
+    }
+    .paraula{
+       
+        background-color: rgb(194, 205, 214);
+        padding: 15px 10px;
+        margin: 10px 200px;
+        width: 120px;
+    
+    }
+    h1{
+        color: yellow;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        color: yellow;
+    }
